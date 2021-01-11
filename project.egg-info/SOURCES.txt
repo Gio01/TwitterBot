@@ -1,0 +1,14 @@
+README.md
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+twitterbot/__init__.py
+twitterbot/items.py
+twitterbot/middlewares.py
+twitterbot/pipelines.py
+twitterbot/settings.py
+twitterbot/spiders/__init__.py
+twitterbot/spiders/tweet_spider.py
