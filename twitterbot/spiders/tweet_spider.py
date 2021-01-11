@@ -5,7 +5,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 # from selenium.webdriver.support.ui import WebDriverWait
 # from selenium.webdriver.support import expected_conditions as EC
-from scrapy.utils.response import open_in_browser
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -36,7 +35,7 @@ class TweetSpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
 
-    def parse(self, response):
+    def parse(self, response):_
         # This is the path to the chromedriver exetuable that will open a
         # chrome window and then run the rest of the code! This is located both
         # in my variable Windows path and within this same directory!
