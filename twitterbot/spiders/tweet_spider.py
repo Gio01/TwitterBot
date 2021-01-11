@@ -35,7 +35,7 @@ class TweetSpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
 
-    def parse(self, response):_
+    def parse(self, response):
         # This is the path to the chromedriver exetuable that will open a
         # chrome window and then run the rest of the code! This is located both
         # in my variable Windows path and within this same directory!
